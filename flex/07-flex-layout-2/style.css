@@ -33,9 +33,10 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
-  padding: 15px;
   flex-shrink: 0;
+  padding: 16px;
+ 
+
 
 }
 
@@ -59,8 +60,10 @@ body {
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
