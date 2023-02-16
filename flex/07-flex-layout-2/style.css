@@ -10,12 +10,17 @@ body {
   color: white;
   font-size: 32px;
   font-weight: 900;
+  align-items: center;
+  display: flex;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -32,6 +37,7 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 ul {
