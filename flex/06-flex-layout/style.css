@@ -11,6 +11,26 @@ img {
   width: 600px;
 }
 
+.header, .left-links, .right-links {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  justify-content: space-between;
+
+}
+
+.left-links {
+  margin: 10px auto 0 10px;
+}
+
+.right-links {
+  margin: 10px 10px 0 0;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
