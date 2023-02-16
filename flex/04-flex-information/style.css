@@ -24,3 +24,12 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.information-boxes {
+  display: flex;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+}
