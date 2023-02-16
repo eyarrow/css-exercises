@@ -12,6 +12,7 @@ body {
   font-weight: 900;
   align-items: center;
   display: flex;
+  padding-left: 15px;
 }
 
 .footer {
@@ -27,6 +28,10 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  padding: 15px;
+  flex-shrink: 0;
+
 }
 
 .card {
